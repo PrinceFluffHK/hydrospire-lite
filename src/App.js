@@ -9,7 +9,7 @@ function App() {
         <div className="">
             <BrowserRouter>
                 <Routes>
-                    <Route path="/" Component={Home} />
+                    <Route path="/hydrospire-lite" Component={Home} />
                 </Routes>
             </BrowserRouter>
         </div>
