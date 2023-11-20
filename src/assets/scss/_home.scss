@@ -1,0 +1,47 @@
+.cover-container {
+    height: 500px;
+    width: 100%;
+    margin-bottom: 2rem;
+    @media only screen and (max-width: 600px) {
+        height: 100%;
+    }
+}
+
+.cover-photo {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-bottom: 3px solid #0073aa;
+    @media only screen and (max-width: 600px) {
+        height: 50%;
+    }
+}
+
+.mission-container {
+    height: 30rem;
+    margin: 2rem 5rem 2rem 5rem;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    h3,
+    p {
+        text-align: justify;
+    }
+    @media only screen and (max-width: 600px) {
+        margin: 2rem 2rem 2rem 2rem;
+    }
+}
+
+.our-mission {
+    font-size: 80px;
+    @media only screen and (max-width: 600px) {
+        font-size: 40px;
+    }
+}
+
+.hl {
+    border-top: 4px solid #0073aa;
+    width: 100%;
+    @media only screen and (max-width: 600px) {
+    }
+}

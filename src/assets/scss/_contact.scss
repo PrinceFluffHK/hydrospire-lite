@@ -1,0 +1,65 @@
+.contact-picture {
+    object-fit: cover;
+    height: 500px;
+    width: 500px;
+    outline-style: solid;
+    outline-color: #0073aa;
+    outline-width: 3px;
+    border-radius: 15px;
+    &-container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        @media only screen and (max-width: 600px) {
+            display: none;
+        }
+    }
+}
+
+.vl {
+    border-left: 4px solid #0073aa;
+    height: 600px;
+    @media only screen and (max-width: 600px) {
+        display: none;
+    }
+}
+
+.contact-callout {
+    background-color: #d8eefe;
+    background-color: white;
+    outline-style: solid;
+    outline-color: #0073aa;
+    outline-width: 4px;
+    border-radius: 15px;
+    height: 250px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    &-item {
+        margin-top: 2rem;
+    }
+    @media only screen and (max-width: 600px) {
+        height: 300px;
+        width: 300px;
+    }
+}
+
+.contact-container-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 47rem;
+    @media only screen and (max-width: 600px) {
+        height: 90vh;
+    }
+}
+
+.contact-container {
+    display: flex;
+    justify-content: space-around;
+    height: 35rem;
+    align-items: center;
+}

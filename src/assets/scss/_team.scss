@@ -1,0 +1,29 @@
+.team-container {
+    width: 270px;
+    @media only screen and (max-width: 600px) {
+        margin-bottom: 2rem;
+    }
+}
+
+.team-headers {
+    margin-bottom: 2rem;
+    @media only screen and (max-width: 600px) {
+        font-size: 32px;
+    }
+}
+
+.team-thumbnail {
+    object-fit: cover;
+    outline-style: solid;
+    outline-color: #d8eefe;
+    outline-color: #0073aa;
+    outline-width: 5px;
+    height: 270px;
+    width: 270px;
+    margin-bottom: 1rem;
+    border-radius: 15px;
+}
+
+.false {
+    display: none;
+}
