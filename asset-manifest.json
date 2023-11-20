@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/hydrospire-lite/static/css/main.82324e9c.css",
+    "main.js": "/hydrospire-lite/static/js/main.eddf658d.js",
+    "static/js/787.87aad609.chunk.js": "/hydrospire-lite/static/js/787.87aad609.chunk.js",
+    "static/media/shutterstock_elderly-walk.jpeg": "/hydrospire-lite/static/media/shutterstock_elderly-walk.0773f013f0e111623305.jpeg",
+    "index.html": "/hydrospire-lite/index.html",
+    "main.82324e9c.css.map": "/hydrospire-lite/static/css/main.82324e9c.css.map",
+    "main.eddf658d.js.map": "/hydrospire-lite/static/js/main.eddf658d.js.map",
+    "787.87aad609.chunk.js.map": "/hydrospire-lite/static/js/787.87aad609.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.82324e9c.css",
+    "static/js/main.eddf658d.js"
+  ]
+}
