@@ -47,17 +47,6 @@ const Iri = (props) => {
                         />
                     </Grid>
                 </Grid>
-                {/* <div className="grid-x grid-margin-x">
-                    <div className="cell small-6 center-image">
-                    </div>
-                    <div className="cell small-6 center-image">
-                    <img
-                    className="iri-stock-image"
-                    src={bloodClot}
-                    alt="https://www.shutterstock.com/image-photo/thickened-arteries-veins-coronary-heart-disease-2239662027"
-                    />
-                    </div>
-                </div> */}
             </div>
             <div className="iri-panel iri-container">
                 <h1 className="iri-header">
