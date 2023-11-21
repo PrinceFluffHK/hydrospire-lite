@@ -7,6 +7,7 @@ import hydrogenMolecule from "../assets/images/shutterstock_hydrogen.jpeg";
 import recoveringStroke from "../assets/images/shutterstock_hospital-woman.jpeg";
 import device from "../assets/images/IMG_6101.jpg";
 import research from "../assets/images/shutterstock_research.jpeg";
+import { Grid } from "@mui/material";
 
 const Iri = (props) => {
     return (
@@ -30,22 +31,33 @@ const Iri = (props) => {
                 </p>
             </div>
             <div className="iri-panel-blue">
-                <div className="grid-x grid-margin-x">
-                    <div className="cell small-6 center-image">
+                <Grid container spacing={2}>
+                    <Grid item xs={6}>
                         <img
                             className="iri-stock-image"
                             src={rescucitation}
                             alt="https://www.shutterstock.com/image-photo/close-on-asian-surgical-team-performing-2115062087"
                         />
-                    </div>
-                    <div className="cell small-6 center-image">
+                    </Grid>
+                    <Grid item xs={6}>
                         <img
                             className="iri-stock-image"
                             src={bloodClot}
                             alt="https://www.shutterstock.com/image-photo/thickened-arteries-veins-coronary-heart-disease-2239662027"
                         />
+                    </Grid>
+                </Grid>
+                {/* <div className="grid-x grid-margin-x">
+                    <div className="cell small-6 center-image">
                     </div>
-                </div>
+                    <div className="cell small-6 center-image">
+                    <img
+                    className="iri-stock-image"
+                    src={bloodClot}
+                    alt="https://www.shutterstock.com/image-photo/thickened-arteries-veins-coronary-heart-disease-2239662027"
+                    />
+                    </div>
+                </div> */}
             </div>
             <div className="iri-panel iri-container">
                 <h1 className="iri-header">
@@ -65,13 +77,19 @@ const Iri = (props) => {
                 </p>
             </div>
             <div className="iri-panel-blue">
-                <div className="grid-x grid-margin-x">
-                    <div className="cell small-6 center-image">
+                <Grid container spacing={2}>
+                    <Grid item xs={6}>
                         <img
                             className="iri-stock-image"
                             src={stent}
                             alt="https://www.shutterstock.com/image-photo/guide-wire-196685048"
                         />
+                    </Grid>
+                    <Grid item xs={6}>
+                    </Grid>
+                </Grid>
+                <div className="grid-x grid-margin-x">
+                    <div className="cell small-6 center-image">
                     </div>
                     <div className="cell small-6 center-image">
                         <img
@@ -95,22 +113,22 @@ const Iri = (props) => {
                 </p>
             </div>
             <div className="iri-panel-blue">
-                <div className="grid-x grid-margin-x">
-                    <div className="cell small-6 center-image">
+                <Grid container spacing={2}>
+                    <Grid item xs={6}>
                         <img
                             className="iri-stock-image"
                             src={hydrogenMolecule}
                             alt="https://www.shutterstock.com/image-photo/abstract-transparent-hydrogen-h2-molecules-on-2253488127"
                         />
-                    </div>
-                    <div className="cell small-6 center-image">
+                    </Grid>
+                    <Grid item xs={6}>
                         <img
                             className="iri-stock-image"
                             src={recoveringStroke}
                             alt="https://www.shutterstock.com/image-photo/older-woman-recovering-hospital-bed-happy-1056956138"
                         />
-                    </div>
-                </div>
+                    </Grid>
+                </Grid>
             </div>
             <div className="iri-panel iri-container">
                 <h1>The HydroSpire Solution</h1>
@@ -128,18 +146,18 @@ const Iri = (props) => {
                 </p>
             </div>
             <div className="iri-panel-blue">
-                <div className="grid-x grid-margin-x">
-                    <div className="cell small-6 center-image">
+                <Grid container spacing={2}>
+                    <Grid item xs={6}>
                         <img
                             className="iri-stock-image"
                             src={research}
                             alt="https://www.shutterstock.com/image-photo/young-scientists-conducting-research-investigations-medical-2149947783"
                         />
-                    </div>
-                    <div className="cell small-6 center-image">
+                    </Grid>
+                    <Grid item xs={6}>
                         <img className="iri-stock-image" src={device} alt="" />
-                    </div>
-                </div>
+                    </Grid>
+                </Grid>
             </div>
         </div>
     );
