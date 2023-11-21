@@ -37,8 +37,8 @@
   }
 }
 
+@import "./shared";
 @import "./home";
-// @import "./foundation/iri";
-// @import "./foundation/team";
-// @import "./foundation/team";
-// @import "./foundation/contact";
+@import "./iri";
+@import "./team";
+@import "./contact";
