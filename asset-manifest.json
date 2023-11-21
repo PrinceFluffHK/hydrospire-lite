@@ -1,22 +1,34 @@
 {
   "files": {
-    "main.css": "/hydrospire-lite/static/css/main.82324e9c.css",
-    "main.js": "/hydrospire-lite/static/js/main.b64817b1.js",
+    "main.css": "/hydrospire-lite/static/css/main.fdb015d8.css",
+    "main.js": "/hydrospire-lite/static/js/main.0fe184a6.js",
     "static/js/787.87aad609.chunk.js": "/hydrospire-lite/static/js/787.87aad609.chunk.js",
+    "static/media/shutterstock_research.jpeg": "/hydrospire-lite/static/media/shutterstock_research.4348c3675cead5ce555c.jpeg",
+    "static/media/shutterstock_surgery.jpeg": "/hydrospire-lite/static/media/shutterstock_surgery.e54baf122ba2d679315a.jpeg",
+    "static/media/shutterstock_hospital-woman.jpeg": "/hydrospire-lite/static/media/shutterstock_hospital-woman.361a02ade63a46d3d892.jpeg",
     "static/media/shutterstock_elderly-walk.jpeg": "/hydrospire-lite/static/media/shutterstock_elderly-walk.0773f013f0e111623305.jpeg",
+    "static/media/shutterstock_red-brain.jpeg": "/hydrospire-lite/static/media/shutterstock_red-brain.ce042c6cc373bf8f9606.jpeg",
+    "static/media/shutterstock_elderly-call.jpeg": "/hydrospire-lite/static/media/shutterstock_elderly-call.83b90a8ea4b7afa82663.jpeg",
+    "static/media/shutterstock_hydrogen.jpeg": "/hydrospire-lite/static/media/shutterstock_hydrogen.370fe23e706bafef16fe.jpeg",
+    "static/media/shutterstock_guide-wire.jpeg": "/hydrospire-lite/static/media/shutterstock_guide-wire.280e5504a70f16253f37.jpeg",
+    "static/media/shutterstock_clogged-blood.jpeg": "/hydrospire-lite/static/media/shutterstock_clogged-blood.b9b122e00fd199bfc1a2.jpeg",
     "static/media/Screenshot 2023-10-31 at 12.58.55 PM.png": "/hydrospire-lite/static/media/Screenshot 2023-10-31 at 12.58.55 PM.a127647296bf5058fff1.png",
     "static/media/LindaTempleton.jpeg": "/hydrospire-lite/static/media/LindaTempleton.bcb6cf2070ed81d13843.jpeg",
     "static/media/Screenshot 2023-10-31 at 12.47.17 PM.png": "/hydrospire-lite/static/media/Screenshot 2023-10-31 at 12.47.17 PM.bc8f64e9d09de7289b92.png",
+    "static/media/Hydrospire logo large.jpg": "/hydrospire-lite/static/media/Hydrospire logo large.cce3939ecbe11c7c9d98.jpg",
+    "static/media/IMG_6101.jpg": "/hydrospire-lite/static/media/IMG_6101.aab39df2d2850b1fde9d.jpg",
     "static/media/Simon.png": "/hydrospire-lite/static/media/Simon.0289423e26003ac2ee00.png",
     "static/media/1516275782592.jpeg": "/hydrospire-lite/static/media/1516275782592.33e04aeb6befc1eca3e5.jpeg",
     "static/media/Andy.png": "/hydrospire-lite/static/media/Andy.cd0836316d777f797fee.png",
+    "static/media/Email.png": "/hydrospire-lite/static/media/Email.47bb663e706bf617a271.png",
+    "static/media/Call.png": "/hydrospire-lite/static/media/Call.f8895d44fd13e051a99c.png",
     "index.html": "/hydrospire-lite/index.html",
-    "main.82324e9c.css.map": "/hydrospire-lite/static/css/main.82324e9c.css.map",
-    "main.b64817b1.js.map": "/hydrospire-lite/static/js/main.b64817b1.js.map",
+    "main.fdb015d8.css.map": "/hydrospire-lite/static/css/main.fdb015d8.css.map",
+    "main.0fe184a6.js.map": "/hydrospire-lite/static/js/main.0fe184a6.js.map",
     "787.87aad609.chunk.js.map": "/hydrospire-lite/static/js/787.87aad609.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.82324e9c.css",
-    "static/js/main.b64817b1.js"
+    "static/css/main.fdb015d8.css",
+    "static/js/main.0fe184a6.js"
   ]
 }
