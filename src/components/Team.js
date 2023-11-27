@@ -22,7 +22,7 @@ const Team = (props) => {
         "CSO",
         lindaPicture,
         "Ph.D Chemical Engineering, Cornell",
-        "Program Lead at Giner Labs, now GLS"
+        "VP Giner Labs, now Giner Life Sciences"
     );
 
     const simonStone = new TeamMember(
@@ -30,7 +30,7 @@ const Team = (props) => {
         "Technology Lead",
         simonPicture,
         "MS Chemistry, Arizona State University.",
-        "Founding CTO, Program Manager and Engineering ElectroChemist at Giner Labs and Giner Life Sciences."
+        "Founding CTO Giner Life Sciences, Systems Engineer/Electrochemist at Giner Labs."
     );
 
     const peterHemingway = new TeamMember(
@@ -38,7 +38,7 @@ const Team = (props) => {
         "CFO",
         peterPicture,
         "MBA, Finance, Babson.",
-        "VP Strategy and Business Development BVI Medical, Waltham Plant Controller Becton Dickinson"
+        "VP Strategy and Business Development BVI Medical, Controller, Ophthalmic"
     );
 
     const johnKheir = new TeamMember(

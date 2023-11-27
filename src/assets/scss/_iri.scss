@@ -1,8 +1,10 @@
 .iri-panel {
     height: 24rem;
-    margin: 0rem 12rem 2rem 12rem;
+    // width: 1800px;
+    margin: 0rem 18vw 2rem 18vw;
     &-blue {
         height: 28rem;
+        width: 100vw;
         padding: 0rem 10rem 0rem 10rem;
         background-color: #d8eefe;
         display: flex;
@@ -23,27 +25,58 @@
         }
     }
 }
-
 .iri-container {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    @media only screen and (max-width: 600px) {
-        margin-top: 2rem;
+}
+
+.color-container{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    width: 100%;
+    &-blue{
+        @extend .color-container;
+        background-color: #d8eefe;
+        
     }
+}
+
+.content-container {
+    margin: 2rem 0rem 2rem 0rem;
+    width: 1000px;
+    @media only screen and (max-width: 1100px) {
+        width: 100%;
+        margin: 2rem 2rem 2rem 2rem;
+    }
+    @media only screen and (max-width: 600px) {
+        margin: 1rem 2rem 1rem 2rem;
+
+        h1{
+            font-size: 24px;
+        }
+    }
+
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
 }
 
 .p-iri {
     text-align: justify;
     font-size: 24px;
-    margin: 0rem 1rem 0rem 1rem;
+    margin: 0rem 3rem 2rem 3rem;
     @media only screen and (max-width: 600px) {
+        margin: 0rem 1.5rem 1.5rem 1.5rem;
         font-size: 15px;
     }
 }
 
 .iri-header {
-    padding: 1rem 0rem 0rem 0rem;
+    margin: 1rem 0rem 2rem 0rem;
 }
 
 .p-container {
@@ -60,8 +93,13 @@
     outline-color: #0073aa;
     outline-width: 5px;
     height: 350px;
-    width: 500px;
-    @media only screen and (max-width: 600px) {
+    width: 90%;
+    @media only screen and (max-width: 950px) {
+        height: 250px;
+        width: 250px;
+        font-size: 15px;
+    }
+    @media only screen and (max-width: 650px) {
         height: 150px;
         width: 150px;
         font-size: 15px;

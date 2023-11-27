@@ -1,0 +1,39 @@
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &-container {
+        border-bottom: 3px solid #0073aa;
+    }
+    &-bottom{
+        margin: 0rem 0rem 0rem 2rem;
+    }
+    &-right {
+        display: flex;
+        // @media only screen and (max-width: 600px) {
+        //     display: none;;
+        // }
+    }
+    &-vertical {
+        margin: 0rem 0rem 0rem 0rem;
+        text-decoration: none;
+        // width: fit-content;
+    }
+    &-horizontal {
+        margin: 0rem 1rem 0rem 0rem;
+        text-decoration: none;
+        @media only screen and (max-width: 600px) {
+            display: none;
+        }
+    }
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+}
+.home-page-logo {
+    height: 4rem;
+    margin: 0.25rem 0rem 0.25rem 0.25rem;
+}
+

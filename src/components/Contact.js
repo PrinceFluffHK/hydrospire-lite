@@ -12,7 +12,7 @@ const Contact = (props) => {
                     style={{ flexDirection: "column" }}
                 >
                     <h1 style={{ margin: "0rem 0rem 2rem 0rem" }}>
-                        Contact Us
+                        Contact HydroSpire Inc.
                     </h1>
                     <img
                         className="contact-picture"
@@ -28,13 +28,13 @@ const Contact = (props) => {
                         </div>
                         <a href="mailto: info@hydrospiremedical.com">
                             <h5 className="contact-callout-item">
-                                info@hydrospiremedical.com
+                                dlawrence@hydrospiremedical.com
                             </h5>
                         </a>
                     </div>
                     <div className="contact-callout">
                         <img src={callPic} />
-                        <h5 className="contact-callout-item">(973) 946-7040</h5>
+                        <h5 className="contact-callout-item">(973) 945-7040</h5>
                     </div>
                 </div>
             </div>

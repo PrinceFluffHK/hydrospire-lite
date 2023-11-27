@@ -38,14 +38,27 @@ h5 {
     transform: translate(-50%, -50%);
 }
 
-.top-bar {
-    border-bottom: 3px solid #0073aa;
-}
-
 .flex-center {
     &-space-around {
         display: flex;
         justify-content: space-around;
         align-items: center;
+    }
+}
+
+.invisible {
+    display: none;
+    &-when-big{
+        display: none;
+        @media only screen and (max-width: 600px) {
+            display: contents;
+        };
+    }
+    &-when-small{
+        // display: none;
+        @media only screen and (max-width: 600px) {
+            display: none;
+        };
+
     }
 }
