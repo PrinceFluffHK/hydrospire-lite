@@ -6,6 +6,7 @@ import simonPicture from "../assets/images/Simon.png";
 import peterPicture from "../assets/images/Screenshot 2023-10-31 at 12.47.17 PM.png";
 import johnPicture from "../assets/images/Screenshot 2023-10-31 at 12.58.55 PM.png";
 import andyPicture from "../assets/images/Andy.png";
+import { Grid } from "@mui/material";
 
 const Team = (props) => {
     const dougLawrence = new TeamMember(
@@ -21,7 +22,7 @@ const Team = (props) => {
         "CSO",
         lindaPicture,
         "Ph.D Chemical Engineering, Cornell",
-        "Program Lead at Giner Labs, now GLS"
+        "VP Giner Labs, now Giner Life Sciences"
     );
 
     const simonStone = new TeamMember(
@@ -29,7 +30,7 @@ const Team = (props) => {
         "Technology Lead",
         simonPicture,
         "MS Chemistry, Arizona State University.",
-        "Founding CTO, Program Manager and Engineering ElectroChemist at Giner Labs and Giner Life Sciences."
+        "Founding CTO Giner Life Sciences, Systems Engineer/Electrochemist at Giner Labs."
     );
 
     const peterHemingway = new TeamMember(
@@ -37,7 +38,7 @@ const Team = (props) => {
         "CFO",
         peterPicture,
         "MBA, Finance, Babson.",
-        "VP Strategy and Business Development BVI Medical, Waltham Plant Controller Becton Dickinson"
+        "VP Strategy and Business Development BVI Medical, Controller, Ophthalmic"
     );
 
     const johnKheir = new TeamMember(
@@ -59,23 +60,24 @@ const Team = (props) => {
         <div style={{ margin: "2rem 0rem 0rem 0rem" }}>
             <div className="page-margins">
                 <h1 className="team-headers">Our Founders</h1>
-                <div className="grid-x grid-margin-x">
+                <Grid container spacing={2}>
                     {dougLawrence.display()}
                     {lindaTempleman.display()}
                     {peterHemingway.display()}
                     {simonStone.display()}
-                </div>
+                </Grid>
             </div>
             <div style={{ backgroundColor: "#d8eefe", paddingTop: "1rem" }}>
                 <div className="page-margins">
                     <h1 className="team-headers">Our Advisors</h1>
-                    <div
-                        className="grid-x grid-margin-x"
+                    <Grid
+                        container
+                        spacing={2}
                         style={{ paddingBottom: "2rem" }}
                     >
                         {johnKheir.display()}
                         {andyBelt.display()}
-                    </div>
+                    </Grid>
                 </div>
             </div>
         </div>

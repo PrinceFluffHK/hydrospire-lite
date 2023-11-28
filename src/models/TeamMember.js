@@ -1,3 +1,4 @@
+import { Grid } from "@mui/material"
 import React from "react"
 
 class TeamMember {
@@ -15,13 +16,16 @@ class TeamMember {
             priorClass = "true"
         }
         return (
-            <div className="cell small-12 medium-6 large-3 team-container" >
+            <Grid item xs={12} md={6} lg={3} xl={2} >
+                <div className="team-container">
                 <img className="team-thumbnail" src={this.image} alt={this.name}/>
                 <h3 className="">{this.name}</h3>
                 <h4>{this.position}</h4>
                 <p>{this.bio}</p>
                 <p className={priorClass}>Former: {this.prior}</p>
-            </div>
+
+                </div>
+            </Grid>
         )
     }
 }
