@@ -1,5 +1,5 @@
 import React from "react";
-import elder from "../assets/images/shutterstock_elderly-walk.jpeg";
+import elder from "../assets/images/shutterstock_elderly-walk.webp";
 
 const Home = (props) => {
     return (

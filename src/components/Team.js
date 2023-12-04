@@ -1,11 +1,11 @@
 import React from "react";
 import TeamMember from "../models/TeamMember.js";
-import dougPicture from "../assets/images/1516275782592.jpeg";
-import lindaPicture from "../assets/images/LindaTempleton.jpeg";
-import simonPicture from "../assets/images/Simon.png";
-import peterPicture from "../assets/images/Screenshot 2023-10-31 at 12.47.17 PM.png";
-import johnPicture from "../assets/images/Screenshot 2023-10-31 at 12.58.55 PM.png";
-import andyPicture from "../assets/images/Andy.png";
+import dougPicture from "../assets/images/1516275782592.webp";
+import lindaPicture from "../assets/images/LindaTempleton.webp";
+import simonPicture from "../assets/images/Simon.webp";
+import peterPicture from "../assets/images/Screenshot 2023-10-31 at 12.47.17 PM.webp";
+import johnPicture from "../assets/images/Screenshot 2023-10-31 at 12.58.55 PM.webp";
+import andyPicture from "../assets/images/Andy.webp";
 import { Grid } from "@mui/material";
 
 const Team = (props) => {

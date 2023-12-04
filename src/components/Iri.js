@@ -1,12 +1,12 @@
 import React from "react";
-import bloodClot from "../assets/images/shutterstock_clogged-blood.jpeg";
-import rescucitation from "../assets/images/shutterstock_surgery.jpeg";
-import stent from "../assets/images/shutterstock_guide-wire.jpeg";
-import redBrain from "../assets/images/shutterstock_red-brain.jpeg";
-import hydrogenMolecule from "../assets/images/shutterstock_hydrogen.jpeg";
-import recoveringStroke from "../assets/images/shutterstock_hospital-woman.jpeg";
-import device from "../assets/images/IMG_6101.jpg";
-import research from "../assets/images/shutterstock_research.jpeg";
+import bloodClot from "../assets/images/shutterstock_clogged-blood.webp";
+import rescucitation from "../assets/images/shutterstock_surgery.webp";
+import stent from "../assets/images/shutterstock_guide-wire.webp";
+import redBrain from "../assets/images/shutterstock_red-brain.webp";
+import hydrogenMolecule from "../assets/images/shutterstock_hydrogen.webp";
+import recoveringStroke from "../assets/images/shutterstock_hospital-woman.webp";
+import device from "../assets/images/IMG_6101.webp";
+import research from "../assets/images/shutterstock_research.webp";
 import { Grid } from "@mui/material";
 
 const Iri = (props) => {

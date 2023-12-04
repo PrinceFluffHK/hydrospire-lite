@@ -1,7 +1,7 @@
 import React from "react";
-import emailPic from "../assets/images/Email.png";
-import callPic from "../assets/images/Call.png";
-import contactPicture from "../assets/images/shutterstock_elderly-call.jpeg";
+import emailPic from "../assets/images/Email.webp";
+import callPic from "../assets/images/Call.webp";
+import contactPicture from "../assets/images/shutterstock_elderly-call.webp";
 
 const Contact = (props) => {
     return (
