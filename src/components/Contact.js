@@ -17,7 +17,7 @@ const Contact = (props) => {
                     <img
                         className="contact-picture"
                         src={contactPicture}
-                        alt="https://www.shutterstock.com/image-photo/technology-communication-people-concept-happy-senior-1132144967"
+                        alt="an elderly woman smiling while on the phone"
                     />
                 </div>
                 <div className="vl"></div>
