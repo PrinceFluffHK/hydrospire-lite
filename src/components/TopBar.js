@@ -7,15 +7,10 @@ import { faBars, faX } from "@fortawesome/free-solid-svg-icons";
 const TopBar = ({ user }) => {
     const [menuClass, setMenuClass] = useState("invisible");
     const handleMenu = () => {
-        console.log("hello from handleMenu");
         if (!menuClass) {
             setMenuClass("invisible");
-            console.log("making invisible");
-            console.log(menuClass);
         } else {
             setMenuClass("");
-            console.log("making visible");
-            console.log(menuClass);
         }
     };
 
