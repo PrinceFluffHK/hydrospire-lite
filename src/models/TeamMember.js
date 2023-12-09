@@ -16,7 +16,7 @@ class TeamMember {
             priorClass = "true"
         }
         return (
-            <Grid item xs={12} md={6} lg={3} xl={2} >
+            <Grid item xs={12} md={6} lg={3} xl={2.5} >
                 <div className="team-container">
                 <img className="team-thumbnail" src={this.image} alt={this.name}/>
                 <h3 className="">{this.name}</h3>

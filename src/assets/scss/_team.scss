@@ -1,6 +1,7 @@
 .team-container {
     width: 270px;
     @media only screen and (max-width: 600px) {
+        width: 270px;
         margin-bottom: 2rem;
     }
 }
