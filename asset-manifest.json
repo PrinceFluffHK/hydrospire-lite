@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/hydrospire-lite/static/css/main.112a52b1.css",
-    "main.js": "/hydrospire-lite/static/js/main.05162269.js",
+    "main.css": "/hydrospire-lite/static/css/main.3cb203ed.css",
+    "main.js": "/hydrospire-lite/static/js/main.a716e0b4.js",
     "static/js/787.87aad609.chunk.js": "/hydrospire-lite/static/js/787.87aad609.chunk.js",
     "static/media/shutterstock_research.webp": "/hydrospire-lite/static/media/shutterstock_research.27d79890f442b96b07ef.webp",
     "static/media/shutterstock_surgery.webp": "/hydrospire-lite/static/media/shutterstock_surgery.83711251729062343af9.webp",
@@ -23,12 +23,12 @@
     "static/media/Andy.webp": "/hydrospire-lite/static/media/Andy.7917409b87d08b778843.webp",
     "static/media/Simon.webp": "/hydrospire-lite/static/media/Simon.9d9ead3e10ae3b1e7103.webp",
     "index.html": "/hydrospire-lite/index.html",
-    "main.112a52b1.css.map": "/hydrospire-lite/static/css/main.112a52b1.css.map",
-    "main.05162269.js.map": "/hydrospire-lite/static/js/main.05162269.js.map",
+    "main.3cb203ed.css.map": "/hydrospire-lite/static/css/main.3cb203ed.css.map",
+    "main.a716e0b4.js.map": "/hydrospire-lite/static/js/main.a716e0b4.js.map",
     "787.87aad609.chunk.js.map": "/hydrospire-lite/static/js/787.87aad609.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.112a52b1.css",
-    "static/js/main.05162269.js"
+    "static/css/main.3cb203ed.css",
+    "static/js/main.a716e0b4.js"
   ]
 }
