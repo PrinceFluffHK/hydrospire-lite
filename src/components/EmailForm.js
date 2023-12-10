@@ -1,5 +1,7 @@
 import emailjs from "@emailjs/browser";
 import React, { useRef, useState } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 const EmailForm = () => {
     const form = useRef();
@@ -31,15 +33,42 @@ const EmailForm = () => {
     };
 
     return (
-        <div style={{backgroundColor: "white"}}>
-            <h1 style={{ margin: "0rem 0rem 2rem 0rem" }} className={formClass}>
-                Email Us:
-            </h1>
+        <div
+            style={{
+                padding: "0rem 0rem 1rem 0rem",
+            }}
+        >
+            <div className="invisible-when-small flex align-center justify-center">
+                <h1>
+                    <FontAwesomeIcon
+                        icon={faEnvelope}
+                        style={{ color: "#0073aa", marginRight: ".5rem" }}
+                    />
+                    :
+                </h1>
+                <h3
+                    className={formClass}
+                    style={{marginLeft: ".5rem"}}
+                >
+                    dlawrence@hydrospiremedical.com
+                </h3>
+            </div>
+            <div className="invisible-when-big">
+                <div className=" flex justify-space-between align-center">
+                    <FontAwesomeIcon
+                        icon={faEnvelope}
+                        size="2xl"
+                        style={{ color: "#0073aa" }}
+                    />
+                    <h1>-</h1>
+                    <h4>dlawrence@hydrospiremedical.com</h4>
+                </div>
+            </div>
             <form className="forty-vw" ref={form} onSubmit={sendEmail}>
                 <div className={formClass}>
                     <div className="form-item">
                         <label>
-                            <h3>Name/Company</h3>
+                            <h3>Name/Organization</h3>
                         </label>
                         <input type="text" name="user_name" id="name" />
                     </div>
