@@ -31,7 +31,7 @@ const EmailForm = () => {
     };
 
     return (
-        <div>
+        <div style={{backgroundColor: "white"}}>
             <h1 style={{ margin: "0rem 0rem 2rem 0rem" }} className={formClass}>
                 Email Us:
             </h1>
@@ -54,8 +54,8 @@ const EmailForm = () => {
                             <h3>Message</h3>
                         </label>
                         <textarea
+                            className="message"
                             name="message"
-                            style={{ width: "40vw" }}
                             rows={10}
                         />
                     </div>

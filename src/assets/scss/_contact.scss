@@ -3,7 +3,11 @@
     outline-style: solid;
     outline-color: #0073aa;
     outline-width: 3px;
-    border-radius: 15px;
+    @media only screen and (max-width: 600px) {
+        width: 300px;
+        height: 300px;
+        border-radius: 150px;
+    }
     &-container {
         display: flex;
         justify-content: space-around;
@@ -45,20 +49,6 @@
     }
 }
 
-.contact-container-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    height: 47rem;
-    @media only screen and (max-width: 600px) {
-        height: 90vh;
-    }
-    h1 {
-        margin-bottom: 2rem;
-    }
-}
-
 .contact-container {
     display: flex;
     justify-content: space-around;
@@ -66,7 +56,10 @@
     background-color: #d8eefe;
     padding: 0rem 2rem 0rem 2rem;
     @media only screen and (max-width: 600px) {
-        padding: 0rem 1rem 0rem 1rem;
+        height: 700px;
+        display: block;
+        padding: 0rem 0rem 0rem 0rem;
+        background-color: #d8eefe;
     }
 }
 .forty-vw {
@@ -92,8 +85,13 @@
     }
 }
 
-.white-mobile {
+.message {
+    width: 40vw;
     @media only screen and (max-width: 600px) {
-        background-color: white;
+        width: 90vw;
     }
+}
+
+.mobile-padding {
+    padding: 0rem 1rem 0rem 1rem;
 }
