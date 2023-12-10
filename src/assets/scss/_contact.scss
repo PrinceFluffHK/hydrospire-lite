@@ -1,7 +1,5 @@
 .contact-picture {
     object-fit: cover;
-    height: 500px;
-    width: 500px;
     outline-style: solid;
     outline-color: #0073aa;
     outline-width: 3px;
@@ -10,6 +8,7 @@
         display: flex;
         justify-content: space-around;
         align-items: center;
+        flex-direction: column;
         @media only screen and (max-width: 600px) {
             display: none;
         }
@@ -18,7 +17,7 @@
 
 .vl {
     border-left: 4px solid #0073aa;
-    height: 600px;
+    height: 80vh;
     @media only screen and (max-width: 600px) {
         display: none;
     }
@@ -55,11 +54,46 @@
     @media only screen and (max-width: 600px) {
         height: 90vh;
     }
+    h1 {
+        margin-bottom: 2rem;
+    }
 }
 
 .contact-container {
     display: flex;
     justify-content: space-around;
-    height: 35rem;
-    align-items: center;
+    height: 97vh;
+    background-color: #d8eefe;
+    padding: 0rem 2rem 0rem 2rem;
+    @media only screen and (max-width: 600px) {
+        padding: 0rem 1rem 0rem 1rem;
+    }
+}
+.forty-vw {
+    height: 40vw;
+    width: 40vw;
+}
+
+.thirty-vw {
+    width: 30vw;
+}
+
+.form-item {
+    margin: 1rem 0rem 0rem 0rem;
+    width: 15vw;
+    label {
+        color: #0073aa;
+    }
+    input {
+        width: 15rem;
+    }
+    h3 {
+        width: 40vw;
+    }
+}
+
+.white-mobile {
+    @media only screen and (max-width: 600px) {
+        background-color: white;
+    }
 }
