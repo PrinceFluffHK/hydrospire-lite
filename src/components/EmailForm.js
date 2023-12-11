@@ -14,10 +14,10 @@ const EmailForm = () => {
 
         emailjs
             .sendForm(
-                "service_6eickyn",
-                "template_lzlrfz9",
+                "service_e5qmdjf",
+                "template_f14le09",
                 form.current,
-                "Wr5DCHfNWTysQ9iLO"
+                "YG9UeeGhj8yci4aR4LBiw"
             )
             .then(
                 (result) => {
