@@ -15,9 +15,9 @@ const EmailForm = () => {
         emailjs
             .sendForm(
                 "service_e5qmdjf",
-                "template_f14le09",
+                "template_z4eu09v",
                 form.current,
-                "YG9UeeGhj8yci4aR4LBiw"
+                "2XLgiF0aT-cByYXOP"
             )
             .then(
                 (result) => {
@@ -39,17 +39,14 @@ const EmailForm = () => {
             }}
         >
             <div className="invisible-when-small flex align-center justify-center">
-                <h1>
+                <h1 className={formClass}>
                     <FontAwesomeIcon
                         icon={faEnvelope}
                         style={{ color: "#0073aa", marginRight: ".5rem" }}
                     />
                     :
                 </h1>
-                <h3
-                    className={formClass}
-                    style={{marginLeft: ".5rem"}}
-                >
+                <h3 className={formClass} style={{ marginLeft: ".5rem" }}>
                     dlawrence@hydrospiremedical.com
                 </h3>
             </div>
