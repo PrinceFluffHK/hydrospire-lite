@@ -22,7 +22,7 @@ const Team = (props) => {
         "CSO",
         lindaPicture,
         "Ph.D Chemical Engineering, Cornell",
-        "VP Giner Labs, now Giner Life Sciences"
+        "CTO Giner Life Sciences"
     );
 
     const simonStone = new TeamMember(

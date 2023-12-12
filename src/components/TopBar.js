@@ -49,11 +49,11 @@ const TopBar = ({ user }) => {
                     <Link to="/" className="top-bar-horizontal">
                         <h3>Home</h3>
                     </Link>
-                    <Link to="/iri" className="top-bar-horizontal">
-                        <h3>IRI</h3>
-                    </Link>
                     <Link to="/team" className="top-bar-horizontal">
-                        <h3>Team</h3>
+                        <h3>Our Team</h3>
+                    </Link>
+                    <Link to="/iri" className="top-bar-horizontal">
+                        <h3>The Science</h3>
                     </Link>
                     <Link to="/contact" className="top-bar-horizontal">
                         <h3>Contact Us</h3>
@@ -71,25 +71,25 @@ const TopBar = ({ user }) => {
                         <h3>Home</h3>
                     </Link>
                     <Link
-                        to="/iri"
-                        className="top-bar-vertical"
-                        onClick={handleMenu}
-                    >
-                        <h3>IRI</h3>
-                    </Link>
-                    <Link
                         to="/team"
                         className="top-bar-vertical"
                         onClick={handleMenu}
                     >
-                        <h3>Team</h3>
+                        <h3>Our Team</h3>
+                    </Link>
+                    <Link
+                        to="/iri"
+                        className="top-bar-vertical"
+                        onClick={handleMenu}
+                    >
+                        <h3>The Science</h3>
                     </Link>
                     <Link
                         to="/contact"
                         className="top-bar-vertical"
                         onClick={handleMenu}
                     >
-                        <h3>Contact</h3>
+                        <h3>Contact Us</h3>
                     </Link>
                 </div>
             </div>

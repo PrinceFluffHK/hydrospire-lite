@@ -15,7 +15,7 @@ const EmailForm = () => {
         emailjs
             .sendForm(
                 "service_e5qmdjf",
-                "template_z4eu09v",
+                "template_fqs4cxn",
                 form.current,
                 "2XLgiF0aT-cByYXOP"
             )
@@ -67,7 +67,7 @@ const EmailForm = () => {
                         <label>
                             <h3>Name/Organization</h3>
                         </label>
-                        <input type="text" name="user_name" id="name" />
+                        <input type="text" name="user_name" />
                     </div>
                     <div className="form-item">
                         <label>
