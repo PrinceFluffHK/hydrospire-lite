@@ -13,30 +13,35 @@ const Team = (props) => {
         "Doug Lawrence",
         "CEO",
         dougPicture,
+        "Headshot of Doug Lawrence",
         "BSc Engineering Penn, BSEcon Wharton, MBA Kellogg.",
-        "VP/GM Becton Dickinson"
+        "VP/GM Becton Dickinson",
     );
 
     const lindaTempleman = new TeamMember(
         "Linda Tempelman",
         "CSO",
         lindaPicture,
+        "Headshot of Linda Templeman",
         "Ph.D Chemical Engineering, Cornell",
-        "CTO Giner Life Sciences"
+        "CTO Giner Life Sciences",
     );
 
     const simonStone = new TeamMember(
         "Simon G. Stone",
         "Technology Lead",
         simonPicture,
+        "Headshot of Simon Stone",
         "MS Chemistry, Arizona State University.",
-        "Founding CTO Giner Life Sciences, Systems Engineer/Electrochemist at Giner Labs."
+        "Founding CTO Giner Life Sciences, Systems Engineer/Electrochemist at Giner Labs.",
+
     );
 
     const peterHemingway = new TeamMember(
         "Peter Hemingway",
         "CFO",
         peterPicture,
+        "Headshot of Peter Hemingway",
         "MBA, Finance, Babson.",
         "VP Strategy and Business Development BVI Medical, Controller, Ophthalmic"
     );
@@ -45,6 +50,7 @@ const Team = (props) => {
         "Dr. John Kheir",
         "Cardiologist, Boston Children's Hospital",
         johnPicture,
+        "Headshot of John Kheir",
         "Associate Professor at Harvard Medical School and Staff Physician in the Cardiac Intensive Care Unit at Boston Children's Hospital."
     );
 
@@ -52,6 +58,7 @@ const Team = (props) => {
         "Andy Belt",
         "MBA, Harvard",
         andyPicture,
+        "Headshot of Andy Belt",
         "Co-founder, Hydrospire Inc. CEO, Giner Inc.",
         "Bain & Co Consulting"
     );

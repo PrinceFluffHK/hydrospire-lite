@@ -35,14 +35,14 @@ const Iri = (props) => {
                             <img
                                 className="iri-stock-image"
                                 src={rescucitation}
-                                alt="https://www.shutterstock.com/image-photo/close-on-asian-surgical-team-performing-2115062087"
+                                alt="Stock image of a man in a hospital receiving CPR"
                             />
                         </Grid>
                         <Grid item xs={6} className="flex-center">
                             <img
                                 className="iri-stock-image"
-                                src={bloodClot}
-                                alt="https://www.shutterstock.com/image-photo/thickened-arteries-veins-coronary-heart-disease-2239662027"
+                                src={bloodClot} 
+                                alt="CG stock image of a vein clogged by unwanted material"
                             />
                         </Grid>
                     </Grid>

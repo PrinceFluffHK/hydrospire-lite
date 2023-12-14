@@ -13,7 +13,10 @@ const Contact = (props) => {
                         <h1 style={{ margin: "0rem 0rem 2rem 0rem" }}>
                             <FontAwesomeIcon
                                 icon={faPhone}
-                                style={{ color: "#0073aa", marginRight: ".5rem" }}
+                                style={{
+                                    color: "#0073aa",
+                                    marginRight: ".5rem",
+                                }}
                             />
                             : (973) 945-7040
                         </h1>

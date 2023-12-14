@@ -67,13 +67,13 @@ const EmailForm = () => {
                         <label>
                             <h3>Name/Organization</h3>
                         </label>
-                        <input type="text" name="user_name" />
+                        <input type="text" name="name" />
                     </div>
                     <div className="form-item">
                         <label>
                             <h3>Email Address</h3>
                         </label>
-                        <input type="email" name="user_email" />
+                        <input type="email" name="email" />
                     </div>
                     <div>
                         <label>
